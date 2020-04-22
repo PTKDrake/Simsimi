@@ -3,7 +3,7 @@
 [![](https://poggit.pmmp.io/shield.state/Simsimi)](https://poggit.pmmp.io/p/Simsimi)
 [![](https://poggit.pmmp.io/shield.dl.total/Simsimi)](https://poggit.pmmp.io/p/Simsimi)
 
-Plugin For Pocketmine-MP and Altay Server
+Plugin For Pocketmine-MP and Altay Server.
 
 ## Installation
 
