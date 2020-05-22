@@ -27,7 +27,7 @@ class simall extends Command implements PluginIdentifiableCommand{
     public function execute(CommandSender $sender, string $commandLabel, array $args)
     {
         Main::$on = !Main::$on;
-        $this->getPlugin()->getServer()->broadcast(Main::PREFIX.'§a Tính năng chat toàn server của simsimi đã được '.(Main::$on ? 'bật' : 'tắt').'!');
+        $this->getPlugin()->getServer()->broadcastMessage(Main::PREFIX.'§a Tính năng chat toàn server của simsimi đã được '.(Main::$on ? 'bật' : 'tắt').'!');
     }
 
     public function getPlugin(): Plugin
